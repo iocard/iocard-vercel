@@ -1,0 +1,14 @@
+version: '3'
+services:
+  server:
+    build: ./server
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./server/data.db:/app/data.db
+  client:
+    build: ./client
+    ports:
+      - "5173:80"
+    depends_on:
+      - server
