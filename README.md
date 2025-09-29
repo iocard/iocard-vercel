@@ -1,1 +1,0 @@
-ioCARD - Vercel (JSON backend)\n\nInstructions:\n1) Push to GitHub and import in Vercel. Note: JSON file writes in serverless environments are not guaranteed persistent across instances. Good for demos.
